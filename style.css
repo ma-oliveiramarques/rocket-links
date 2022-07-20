@@ -28,8 +28,33 @@ body.pink {
   --primary-color-dark: #A61E4D;
 }
 
+body.dark-pink {
+  --bg-color: #210129;
+  --text-color: #ffffff;
+  --primary-color: #a21f95;
+  --primary-color-dark: #510150;
+  ;
+}
+
+body.ligth-black {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color:black;
+  --primary-color-dark: yellow;
+  ;
+}
+
+body.black-red {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --primary-color:rgba(255, 0, 0, 0.66);
+  --primary-color-dark: tomato;
+  ;
+}
+
 body {
-  background: var(--bg-color);
+  background: url();
+  background-size: 100%;
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -91,6 +116,11 @@ ul li a {
 
 ul li a:hover {
   background-color: var(--primary-color-dark);
+}
+
+ul li i {
+  padding-right: 10px;
+  color: var(--bg-color);
 }
 
 footer {
