@@ -53,7 +53,7 @@ body.black-red {
 }
 
 body {
-  background: url(img/blur-stain.jpg);
+  background: url(./img/blur-stain.jpg);
   background-size: cover;
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
