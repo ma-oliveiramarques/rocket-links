@@ -48,7 +48,7 @@ body.black-red {
   --bg-color: #000000;
   --text-color: #ffffff;
   --primary-color:rgba(255, 0, 0, 0.66);
-  --primary-color-dark: tomato;
+  --primary-color-dark: rgb(255, 99, 71);
   ;
 }
 
